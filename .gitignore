@@ -1,0 +1,27 @@
+# Godot 4가 자동으로 만드는 폴더 (캐시·임포트 데이터)
+.godot/
+
+# Godot 3 시절 임포트 폴더 (혹시 몰라 함께 제외)
+.import/
+
+# 내보내기(Export) 결과물
+export/
+exports/
+build/
+builds/
+*.exe
+*.pck
+*.apk
+*.aab
+*.x86_64
+*.dmg
+*.zip
+
+# 내보내기 설정 (서명 키 비밀번호 등이 들어갈 수 있음)
+export_presets.cfg
+export_credentials.cfg
+
+# 운영체제가 만드는 파일
+.DS_Store
+Thumbs.db
+desktop.ini
